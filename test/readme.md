@@ -1,3 +1,4 @@
 ```sql
-SELECT * FROM employees START WITH EMPLOYEE_ID = 1 CONNECT BY PRIOR EMPLOYEE_ID = MANAGER_ID;
+select *
+FROM orders
 ```
