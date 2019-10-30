@@ -1,4 +1,3 @@
 ```sql
-select *
-FROM orders
+select * FROM study
 ```
